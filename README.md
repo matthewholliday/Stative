@@ -1,6 +1,6 @@
-Stative is a simple dependency injection container for Salesforce.
+# Stative is a simple dependency injection container for Salesforce.
 
-Example usage:
+## Example usage:
 
 Consider the following interface and concrete class:
 
