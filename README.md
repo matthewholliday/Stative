@@ -28,10 +28,10 @@ System.debug(myObjectA.getHelloWorld()); // ==> 'Hello World'
 
 The Stative class exposes the following methods for managing dependencies:
 
-public static void addContract(String contractName, String contractValue)
-Boolean contractExists(String contractName)  
-void deleteContract(String contractName)
-String getContractValue(String contractName) 
-void getDependency(String contractName)
-void updateContract(String contractName, String contractValue)
-void upsertContract(String contractName, String contractValue)
+* public static void addContract(String contractName, String contractValue)
+* Boolean contractExists(String contractName)  
+* void deleteContract(String contractName)
+* String getContractValue(String contractName) 
+* void getDependency(String contractName)
+* void updateContract(String contractName, String contractValue)
+* void upsertContract(String contractName, String contractValue)
