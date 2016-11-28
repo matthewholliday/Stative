@@ -18,6 +18,7 @@ public interface IMyClassA {
 
 The dependency can be injected in the following manner:
 
+```
 //Register a contract with the container.
 Stative.addContract('IMyClassA', 'MyClassA');
         
@@ -26,7 +27,7 @@ IMyClassA myObjectA = (IMyClassA)Stative.getDependency('IMyClassA');
         
 //myObjectA is an instance of the 'MyClassA' concrete class
 System.debug(myObjectA.getHelloWorld()); // ==> 'Hello World'
-
+```
 
 The Stative class exposes the following methods for managing dependencies:
 
