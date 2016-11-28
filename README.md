@@ -4,6 +4,7 @@
 
 Consider the following interface and concrete class:
 
+```
 public class MyClassA implements IMyClassA{
     public String getHelloWorld(){
         return 'Hello World';
@@ -13,6 +14,7 @@ public class MyClassA implements IMyClassA{
 public interface IMyClassA {
 	String getHelloWorld();
 }
+```
 
 The dependency can be injected in the following manner:
 
